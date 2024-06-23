@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio&N</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <!-- Start header -->
+  <nav class="navbar navbar-expand-lg" style="background-color: #27323E;">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">Beans 
+        <span style="background: linear-gradient(to right, #FC4A1A, #F7B733); -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;">Studios
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border-color:white; box-shadow:none">
+        <i class="fa-solid fa-bars text-white" style="font-size:26px"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li id="">
+            <a class="nav-link text-white active" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#services">My services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#Portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#blog">Blog</a>
+          </li>
+        </ul>
+        <button class="btn log text-white border border-warning" type="submit">Login</button>
+        <button class="btn jo ms-2 text-white border border-warning"  type="submit">Join</button>
+        <style>
+          @media (max-width: 991px) {
+            .log,.jo {
+              width: 100%;
+              margin: 0 !important;
+              margin-top: 7px !important;
+            }
+          }
+        </style>
+      </div>
+    </div>
+  </nav>
+  <!-- End header -->
+
+  <!-- Start landing -->
+    <div class="landing text-white pt-5" style="background-color: #27323E;">
+      <div class="container d-flex justify-content-between " style="min-height: calc(100vh - 72px); padding-top:100px">
+        <div class="box">
+          <span class="d-inline-block p-2 fs-5 mb-3" style="background-image: linear-gradient(to right, #FC4A1A, #F7B733); border-radius: 40px 40px 40px 0">Hello, i’m</span>
+          <h1 style="font-size: 70px;">Mr. Beans</h1>
+          <p class="mb-4">WEB DEVELOPER | GRAPHIC DESIGNER | FREELANCER | UX/UI DESIGNER</p>
+          <div class="icons mb-5">
+            <a class="d-flex justify-content-center align-items-center rounded-circle bg-white me-2 float-start" style="width: 30px; height: 30px;" href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a class="d-flex justify-content-center align-items-center rounded-circle bg-white me-2 float-start" style="width: 30px; height: 30px;" href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a class="d-flex justify-content-center align-items-center rounded-circle bg-white" style="width: 30px; height: 30px;" href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <button type="send" class="btn mt-3 ps-5 pe-5 pt-2 pb-2 text-white fs-5" style="background-image: linear-gradient(to right, #FC4A1A, #F7B733);">Download CV</button>
+        </div>
+        <div class="img">
+          <img class="rounded-circle border d-none d-lg-block" style="width: 500px; height:500px" src="imgs/landing.png" alt="">
+        </div>
+      </div>
+    </div>
+  <!-- End landing -->
+
+  <!-- Start about -->
+    <div class="about bg-dark pt-5 pb-5 text-white" id="about">
+      <div class="container d-flex justify-content-between gap-5 align-items-center">
+        <style>
+          @media (max-width: 774px) {
+            .about .container {
+              flex-direction: column;
+            }
+          }
+        </style>
+        <div class="box">
+          <div class="img position-relative">
+            <img class="rounded-pill border border-2 border-warning opacity-75" src="imgs/about.png" alt="">
+            <img class="position-absolute rounded-circle" style="bottom: 3px; left: 70px;" width="40px" src="imgs/academy2.png" alt="">
+            <img class="position-absolute rounded-circle" style="bottom: -15px; left: 150px" width="40px" src="imgs/academy1.png" alt="">
+            <img class="position-absolute rounded-circle" style="bottom: -5px; left: 235px" width="40px" src="imgs/academy3.png" alt="">
+          </div>
+          <p class="text-center mt-4 mb-0">Certifications</p>
+          <h2 class="text-center fst-italic">Nada Badawy</h2>
+        </div>
+
+        <div class="box w-50 fst-italic">
+          <style>
+            @media (max-width: 774px) {
+              .about .container .box:last-of-type {
+                width: 100% !important;
+              }
+            }
+          </style>
+          <h1 class="mb-3" style="font-size: 55px;">About me</h1>
+          <p class="mb-5 lh-lg" style="font-size: 18px;">I'm Nada Badawy, I'm 21 years old, I currently work independently as a FrontEnd, Graphic designer, UX|UI designer and video game designer.</p>
+          <p class="lh-lg" style="font-size: 18px;">I currently have a video game studio where I spend my time mixing ideas from all my work to generate quality stories that everyone can enjoy.</p>
+        </div>
+      </div>
+    </div>
+  <!-- End about -->
+
+  <!-- Start My services -->
+    <div class="services text-white pt-5 pb-5" id="services" style="background-color: #27323E;">
+      <h1 class="mb-3 text-center fst-italic" style="font-size: 55px;">My services</h1>
+      <div class="container mt-5 d-flex justify-content-between gap-5">
+        <style>
+          @media (max-width: 774px) {
+            .services .container {
+              flex-direction: column;
+            }
+          }
+        </style>
+        <div class="box text-end">
+          <div class="boxx d-flex align-items-start gap-2 mb-3">
+            <div class="content">
+              <h3>PHOTOGRAPHY</h3>
+              <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque excepturi sit odit impedit, voluptas.</p>
+            </div>
+            <i class="fa-solid fa-paintbrush border border-warning p-2 rounded-circle mt-3"></i>
+          </div>
+
+          <div class="boxx d-flex align-items-start gap-2 mb-3">
+            <div class="content">
+              <h3>UI/UX DESIGN</h3>
+              <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque excepturi sit odit impedit, voluptas.</p>
+            </div>
+            <i class="fa-solid fa-paintbrush border border-warning p-2 rounded-circle mt-3"></i>
+          </div>
+
+          <div class="boxx d-flex align-items-start gap-2 mb-3">
+            <div class="content">
+              <h3>WEB DESIGN</h3>
+              <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque excepturi sit odit impedit, voluptas.</p>
+            </div>
+            <i class="fa-solid fa-paintbrush border border-warning p-2 rounded-circle mt-3"></i>          
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="boxx d-flex align-items-start gap-2 mb-3">
+            <i class="fa-solid fa-paintbrush border border-warning p-2 rounded-circle mt-3"></i>            
+            <div class="content">
+              <h3>WEB DEVELOPMENTD</h3>
+              <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque excepturi sit odit impedit, voluptas.</p>
+            </div>
+          </div>
+
+          <div class="boxx d-flex align-items-start gap-2 mb-3">
+            <i class="fa-solid fa-paintbrush border border-warning p-2 rounded-circle mt-3"></i>            
+            <div class="content">
+              <h3>3D DESIGN</h3>
+              <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque excepturi sit odit impedit, voluptas.</p>
+            </div>
+          </div>
+
+          <div class="boxx d-flex align-items-start gap-2 mb-3">
+            <i class="fa-solid fa-paintbrush border border-warning p-2 rounded-circle mt-3"></i>            
+            <div class="content">
+              <h3>2D DESIGN</h3>
+              <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque excepturi sit odit impedit, voluptas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- End My services -->
+
+  <!-- Start Portfolio -->
+    <div class="Portfolio bg-dark text-white" id="Portfolio">
+      <h1 class="mb-3 text-center fst-italic pt-5 pb-5" style="font-size: 55px;">Portfolio</h1>
+      <div class="imgs d-grid opacity-75" style="grid-template-columns: repeat(6, auto);">
+        <img class="mw-100 h-100" style="grid-row: span 2;" src="imgs/img1.png" alt="">
+        <img class="mw-100 h-100" src="imgs/img2.png" alt="">
+        <img class="mw-100 h-100" style="grid-row: span 2; grid-column: span 2;" src="imgs/img4.png" alt="">
+        <img class="mw-100 h-100" src="imgs/img5.png" alt="">
+        <img class="mw-100 h-100" src="imgs/img6.png" alt="">
+        <img class="mw-100 h-100" src="imgs/img3.png" alt="">
+        <img class="mw-100 h-100" style="grid-row: span 2; grid-column: span 2;" src="imgs/img10.png" alt="">
+        <img class="mw-100 h-100" style="grid-column: span 2;" src="imgs/img7.png" alt="">
+        <img class="mw-100 h-100" src="imgs/img8.png" alt="">
+        <img class="mw-100 h-100" src="imgs/img9.png" alt="">
+      </div>
+    </div>
+  <!-- End Portfolio -->
+
+  <!-- Start blog -->
+    <div class="blog text-white pb-5 position-relative" id="blog" style="background-color: #27323E; height: 120vh">
+      <style>
+        @media (max-width: 930px) {
+          .blog {
+            height: 110vh !important;
+          }
+        }
+        @media (max-width: 755px) {
+          .blog {
+            height: 90vh !important;
+          }
+        }
+        @media (max-width: 638px) {
+          .blog {
+            height: 70vh !important;
+          }
+        }
+      </style>
+      <h1 class="mb-3 fst-italic pt-5 ps-5 pe-5 bg-black m-auto border border-top-0 border-bottom-0" style="font-size: 55px; width:fit-content; padding-bottom: 250px">Blog</h1>
+      <style>
+        @media (max-width: 755px) {
+          .blog h1{
+            padding-bottom: 200px !important;
+          }
+        }
+        @media (max-width: 638px) {
+          .blog h1{
+            padding-bottom: 150px !important;
+          }
+        }
+      </style>
+      <div class="container d-flex justify-content-center align-items-center">
+        <div class="imgs d-grid gap-3 position-absolute mb-5" style="grid-template-columns: repeat(3, auto); transform: rotate(-45deg);">
+          <img width="200px" height="200px" src="imgs/blog1.png" alt="">
+          <img width="200px" height="200px" style="grid-area: 2/1/2/1;" src="imgs/blog2.png" alt="">
+          <img width="200px" height="200px" style="grid-area: 2/2/2/2;" src="imgs/blog3.png" alt="">
+          <img width="200px" height="200px" style="grid-area: 3/1/3/1;" src="imgs/blog4.png" alt="">
+          <img width="200px" height="200px" style="grid-area: 3/2/3/2;" src="imgs/blog5.png" alt="">
+          <img width="200px" height="200px" style="grid-area: 3/3/3/3;" src="imgs/blog6.png" alt="">
+          <style>
+            @media (max-width: 930px) {
+              .blog .imgs img {
+                width: 160px;
+                height: 160px;
+              }
+            }
+            @media (max-width: 755px) {
+              .blog .imgs img {
+                width: 130px;
+                height: 130px;
+              }
+            }
+            @media (max-width: 638px) {
+              .blog .imgs img {
+                width: 70px;
+                height: 70px;
+              }
+            }
+          </style>
+        </div>
+      </div>
+    </div>
+  <!-- End blog -->
+
+  <!-- Start GET IN TOUCH -->
+    <div class="get-in bg-dark pt-5 pb-5 text-white">
+      <div class="container">
+        <h1 class="mb-5 fst-italic" style="font-size: 50px;">GET IN TOUCH</h1>
+        <div class="content d-flex justify-content-center align-items-center gap-5">
+          <style>
+            @media (max-width: 767px) {
+              .get-in .content {
+                flex-direction: column;
+              }
+            }
+          </style>
+          <div class="box">
+            <form action="">
+              <div class="row">
+                <div class="col-6">
+                  <input type="text" class="form-control rounded-pill bg-dark border-warning shadow-none text-white" placeholder="First name">
+                  <style>
+                    .form-control::placeholder{
+                      color: #9F9F9F;
+                    }
+                  </style>
+                </div>
+                <div class="col-6">
+                  <input type="text" class="form-control rounded-pill bg-dark border-warning shadow-none text-white" placeholder="Last name">
+                </div>
+                <div class="col-12">
+                  <input type="email" class="form-control mt-4 rounded-pill bg-dark border-warning shadow-none text-white" placeholder="Email">
+                </div>
+                <div class="col-12">
+                  <textarea class="form-control mt-4 bg-dark border-warning shadow-none text-white" style="resize: none;" rows="7" placeholder="Message"></textarea>
+                </div>
+              </div>
+              <button type="send" class="btn mt-3 ps-5 pe-5 text-white fs-5 text-white d-block m-auto" style="background-image: linear-gradient(to right, #FC4A1A, #F7B733);">Send</button>
+            </form>
+          </div>
+
+          <div class="box p-4 rounded" style="background-image: linear-gradient(to right, #FC4A1A, #F7B733);">
+            <h3 class="mb-3">CONTACT INFO</h3>
+            <p class="mb-4 fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro fugit cum doloremque provident laboriosam iure.</p>
+            <div class="add d-flex gap-2">
+              <i class="fa-solid fa-location-crosshairs mt-1"></i>
+              <p class="fst-italic">Address: <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, numquam.</p>
+            </div>
+            <div class="email d-flex gap-2">
+              <i class="fa-solid fa-envelope mt-1"></i>
+              <p class="fst-italic">Email: iisraelgonza@gmail.com <br>
+                abelisraelromero@gmail.com</p>
+            </div>
+            <div class="phone d-flex gap-2">
+              <i class="fa-solid fa-mobile mt-1"></i>
+              <p class="fst-italic">Phone: +52 671 114 3273</p>
+            </div>
+            <div class="office d-flex gap-2">
+              <i class="fa-solid fa-square-phone mt-1"></i>
+              <p>office - Beans studio</p>
+            </div>
+            <div class="skype d-flex gap-2">
+              <i class="fa-brands fa-skype mt-1"></i>
+              <p class="fst-italic">Skype: sadfasd.skype</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- End GET IN TOUCH -->
+
+  <!-- Start Testimonial -->
+    <div class="testimonial pt-5 pb-5 text-white" style="background-color: #27323E;">
+      <h1 class="mb-5 text-center fst-italic" style="font-size: 55px;">Testimonial</h1>
+      <div class="container d-grid gap-4" style="grid-template-columns: repeat(auto-fill, minmax(330px,1fr));">
+        <style>
+          @media (max-width: 767px) {
+            .testimonial .container {
+              gap: 20px !important;
+            }
+          }
+        </style>
+        <div class="box bg-light rounded p-5" style="color: #27323E;">
+          <style>
+            @media (max-width: 767px) {
+              .testimonial .container .box {
+                padding: 20px !important;
+              }
+            }
+          </style>
+          <p class="box lh-lg mb-5">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
+          <div class="info d-flex gap-4">
+            <img class="rounded-circle" src="imgs/test1.png" width="100" height="100" alt="">
+            <div>
+              <div class="mb-2">
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star-half-alt fa-sm"></i>
+              </div>
+              <h5>Gemma Nolen</h5>
+              <p>Google</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box bg-light rounded p-5" style="color: #27323E;">
+          <p class="lh-lg mb-5">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
+          <div class="info d-flex gap-4">
+            <img class="rounded-circle" src="imgs/test2.png" width="100" height="100" alt="">
+            <div>
+              <div class="mb-2">
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star-half-alt fa-sm"></i>
+              </div>
+              <h5>John Smith</h5>
+              <p>Google</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box bg-light rounded p-5" style="color: #27323E;">
+          <p class="lh-lg mb-5">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
+          <div class="info d-flex gap-4">
+            <img class="rounded-circle" src="imgs/test3.png" width="100" height="100" alt="">
+            <div>
+              <div class="mb-2">
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star-half-alt fa-sm"></i>
+              </div>
+              <h5>Alexa Horwitz</h5>
+              <p>Google</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box bg-light rounded p-5" style="color: #27323E;">
+          <p class="lh-lg mb-5">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
+          <div class="info d-flex gap-4">
+            <img class="rounded-circle" src="imgs/test4.png" width="100" height="100" alt="">
+            <div>
+              <div class="mb-2">
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star-half-alt fa-sm"></i>
+              </div>
+              <h5>Teresa May</h5>
+              <p>Google</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box bg-light rounded p-5" style="color: #27323E;">
+          <p class="lh-lg mb-5">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
+          <div class="info d-flex gap-4">
+            <img class="rounded-circle" src="imgs/test5.png" width="100" height="100" alt="">
+            <div>
+              <div class="mb-2">
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star-half-alt fa-sm"></i>
+              </div>
+              <h5>Maggie McLoan</h5>
+              <p>Google</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box bg-light rounded p-5" style="color: #27323E;">
+          <p class="lh-lg mb-5">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
+          <div class="info d-flex gap-4">
+            <img class="rounded-circle" src="imgs/test6.png" width="100" height="100" alt="">
+            <div>
+              <div class="mb-2">
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star fa-sm"></i>
+                <i class="fas fa-star-half-alt fa-sm"></i>
+              </div>
+              <h5>Lisa Cudrow</h5>
+              <p>Google</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- End Testimonial -->
+
+  <!-- Start projects -->
+    <div class="projects pt-5 pb-5 bg-dark text-white">
+      <div class="container">
+        <div class="box d-flex mb-5 align-items-center gap-5">
+          <style>
+            @media (max-width: 992px) {
+              .projects .box {
+                flex-direction: column;
+              }
+            }
+          </style>
+          <div>
+            <h6 style="color: #FC4A1A;">Featured  Project</h6>
+            <h3 class="mb-4">Example Project</h3>
+            <p class="p-5 rounded fst-italic lh-lg" style="background-image: linear-gradient(to right, #27323E, #FC4A1A);">
+              A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio
+              information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+            </p>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-code-compare"></i>
+          </div>
+          <div class="img">
+            <img class="rounded" src="imgs/proj1.png" width="550px" height="300" alt="">
+            <style>
+              @media (max-width: 992px) {
+                .projects .box .img,
+                .projects .box img {
+                  width: 100%;
+                }
+              }
+            </style>
+          </div>
+        </div>
+
+        <div class="box pt-5 d-flex align-items-center gap-5 text-end">
+          <div class="img">
+            <img class="rounded" src="imgs/proj2.png" width="550px" height="300" alt="">
+            <style>
+              @media (max-width: 992px) {
+                .projects .box .img {
+                  order: 2;
+                }
+              }
+            </style>
+          </div>
+          <div>
+            <style>
+              @media (max-width: 992px) {
+                .projects .box > div {
+                  order: 1;
+                }
+              }
+            </style>
+            <h6 style="color: #FC4A1A;">Featured  Project</h6>
+            <h3 class="mb-4">Example Project</h3>
+            <p class="p-5 rounded fst-italic lh-lg text-start" style="background-image: linear-gradient(to left, #27323E, #FC4A1A);">
+              A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio 
+              information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+            </p>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-code-compare"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- End projects -->
+
+  <!-- Start footer -->
+    <div class="footer text-white" style="background-color: #27323E;">
+      <div class="container">
+        <footer class="pt-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="mb-4">Your name.</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-4"><a href="#" class="nav-link p-0" style="color: #9F9F9F;">desc</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="mb-4" style="color: #9F9F9F;">Links</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Shop</a></li>
+                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Contact</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="mb-4" style="color: #9F9F9F;">Help</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Payment Options</a></li>
+                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Returns</a></li>
+                <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Privacy Policies</a></li>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5 class="mb-4" style="color: #9F9F9F;">Newsletter</h5>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <input id="newsletter1" type="email" class="form-control" placeholder="Enter Your Email address">
+                  <button class="btn text-white border-bottom" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="py-4 mt-4 border-top">
+            <p>2024 furino. All rights reverved</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  <!-- End footer -->
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
